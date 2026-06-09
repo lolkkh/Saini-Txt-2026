@@ -351,6 +351,7 @@ async def drm_handler(bot: Client, m: Message):
                     ccimg = f'[{name1}.jpg]({link0})'
                     ccm = f'[{name1}.mp3]({link0})'
                     cchtml = f'[{name1}.html]({link0})'
+                    ccyt = f'[{name1}]({link0})'
                 else:
                     if topic == "/yes":
                         if caption == "/cc1":
